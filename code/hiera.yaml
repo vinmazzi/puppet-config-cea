@@ -1,0 +1,10 @@
+---
+:backends: 
+   - yaml
+   - puppet
+:yaml:
+  :datadir: /etc/puppetlabs/code/hieradata/
+:hierarchy:
+  - "%{environment}/tags/%{tag}"
+  - "%{environment}/common"
+:logger: puppet

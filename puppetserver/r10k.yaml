@@ -1,0 +1,7 @@
+sources:
+   puppet-code:
+     basedir: "/etc/puppetlabs/code/environments"
+     remote: "git@cealgitlabh1.brasil.latam.cea:vmazzi/puppet-code.git"
+   hiera-code:
+     basedir: "/etc/puppetlabs/code/hieradata/"
+     remote: "git@cealgitlabh1.brasil.latam.cea:vmazzi/hiera-code.git"
